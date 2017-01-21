@@ -29,8 +29,7 @@
         android:layout_alignBottom="@+id/textView9"
         android:layout_alignLeft="@+id/ratingBar2"
         android:layout_alignStart="@+id/ratingBar2"
-        android:fadeScrollbars="false"
-        android:elevation="1dp" />
+        android:fadeScrollbars="false" />
 
     <RatingBar
         android:layout_width="wrap_content"
@@ -155,5 +154,14 @@
         android:layout_alignTop="@+id/textView7"
         android:layout_toRightOf="@+id/textView9"
         android:layout_toEndOf="@+id/textView9" />
+
+    <Button
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button3" />
 
 </RelativeLayout>
