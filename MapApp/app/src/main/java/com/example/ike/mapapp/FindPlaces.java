@@ -82,9 +82,7 @@ public class FindPlaces extends FragmentActivity implements OnMapReadyCallback,
 
         mUiSettings.setZoomControlsEnabled(true);
         mUiSettings.setIndoorLevelPickerEnabled(false);
-
-
-
+        mUiSettings.setRotateGesturesEnabled(false);
     }
 
 
@@ -138,9 +136,9 @@ public class FindPlaces extends FragmentActivity implements OnMapReadyCallback,
         mMap.animateCamera(CameraUpdateFactory.zoomTo(20));
 
         //stop location updates
-        /*if (mGoogleApiClient != null) {
+        if (mGoogleApiClient != null) {
             LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
-        }*/
+        }
 
     }
 

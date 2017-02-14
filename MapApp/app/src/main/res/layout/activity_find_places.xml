@@ -5,6 +5,8 @@
     android:layout_height="match_parent"
     android:background="#ebebeb" >
 
+
+
 <fragment xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,5 +15,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.ike.mapapp.FindPlaces" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="What are you looking for?"
+        android:ems="10"
+        android:layout_marginTop="29dp"
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Search"
+        style="@style/Widget.AppCompat.EditText"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:selectAllOnFocus="false"
+        android:textSize="20dp"/>
+
+
+
+
 
 </RelativeLayout>
