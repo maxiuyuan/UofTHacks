@@ -38,13 +38,17 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".FindPlaces"
-            android:label="@string/title_activity_find_places">
+            android:name=".Login"
+            android:label="@string/login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".FindPlaces"
+            android:label="@string/title_activity_find_places">
         </activity>
     </application>
 

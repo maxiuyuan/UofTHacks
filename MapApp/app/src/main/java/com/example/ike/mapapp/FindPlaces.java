@@ -10,6 +10,7 @@ package com.example.ike.mapapp;
         import android.support.v4.content.ContextCompat;
         import android.widget.Toast;
         import com.google.android.gms.maps.UiSettings;
+        import android.app.Activity;
 
         import com.google.android.gms.common.ConnectionResult;
         import com.google.android.gms.common.api.GoogleApiClient;
@@ -25,6 +26,11 @@ package com.example.ike.mapapp;
         import com.google.android.gms.maps.model.MapStyleOptions;
         import com.google.android.gms.maps.model.Marker;
         import com.google.android.gms.maps.model.MarkerOptions;
+        import com.google.android.gms.maps.*;
+        import com.google.android.gms.maps.model.*;
+
+
+
 
 public class FindPlaces extends FragmentActivity implements OnMapReadyCallback,
         GoogleApiClient.ConnectionCallbacks,
